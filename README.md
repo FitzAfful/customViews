@@ -1,2 +1,2 @@
-# Nss Android
+# Nss iOS App
 
