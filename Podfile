@@ -1,16 +1,16 @@
-# Uncomment the next line to define a global platform for your project
-platform :ios, '11.0'
-target 'NSS' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-  inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
 
-  # Pods for NSS
-pod 'SnapKit', '~> 5.0.0'
-pod 'Locksmith'
-pod 'Alamofire', '~> 5.2'
-pod 'IQKeyboardManager'
-pod 'SwiftLint'
+platform :ios, '11.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'NSS' do
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'Locksmith'
+  pod 'Alamofire', '~> 5.2'
+  pod 'IQKeyboardManager'
+  pod 'SwiftLint'
+  pod 'DropDown'
 
 
   target 'NSSTests' do
