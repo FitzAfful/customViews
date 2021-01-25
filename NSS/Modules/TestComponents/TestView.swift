@@ -29,6 +29,9 @@ class TestView: UIView {
     var textFieldView = LabeledTextField()
     var searchBar = BaseSearchBar()
     var dropDownButton = DropDownButton()
+    var drawerCellView = DrawerCellView()
+    var selectedDrawerCellView = DrawerCellView()
+    var stepper = Stepper()
 
     weak var delegate: TestViewDelegate?
 
@@ -42,6 +45,7 @@ class TestView: UIView {
         self.delegate = delegate
         self.createViews()
     }
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -58,15 +62,18 @@ class TestView: UIView {
         createRoundArrowButton()
         createBaseSearchBar()
         createDropDownButton()
+        createDrawerCellView()
+        createSelectedDrawerCellView()
+        createStepper()
     }
 
     func createButtonSection() {
-        buttonSection.backgroundColor = UIColor.lightGrey
+        buttonSection.backgroundColor = UIColor.init(hexString: "#E3BC9A")
         self.addSubview(buttonSection)
         buttonSection.snp.makeConstraints({ (make) in
             make.left.right.equalToSuperview()
             make.topMargin.equalTo(80)
-            make.height.equalTo(600)
+            make.height.equalTo(750)
         })
     }
 
@@ -83,7 +90,6 @@ class TestView: UIView {
 
     func createChevronLeftButton() {
         chevronLeftButton = ButtonViewHelper.baseChevronButton(title: "Chevron L", chevronPosition: .left)
-        // defaultButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         buttonSection.addSubview(chevronLeftButton)
         chevronLeftButton.snp.makeConstraints({ (make) in
             make.left.equalTo(defaultButton.snp.right).offset(10)
@@ -95,7 +101,6 @@ class TestView: UIView {
 
     func createChevronRightButton() {
         chevronRightButton = ButtonViewHelper.baseChevronButton(title: "Chevron R", chevronPosition: .right)
-        // defaultButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         buttonSection.addSubview(chevronRightButton)
         chevronRightButton.snp.makeConstraints({ (make) in
             make.left.equalTo(chevronLeftButton.snp.right).offset(10)
@@ -107,7 +112,6 @@ class TestView: UIView {
 
     func createBorderedButton() {
         borderedButton = ButtonViewHelper.borderedButton(title: "Bordered")
-        // defaultButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         buttonSection.addSubview(borderedButton)
         borderedButton.snp.makeConstraints({ (make) in
             make.left.equalToSuperview().inset(10)
@@ -119,7 +123,6 @@ class TestView: UIView {
 
     func createBorderedChevronLeftButton() {
         borderedChevronLeftButton = ButtonViewHelper.borderedChevronButton(title: "Bordered L", chevronPosition: .left)
-        // defaultButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         buttonSection.addSubview(borderedChevronLeftButton)
         borderedChevronLeftButton.snp.makeConstraints({ (make) in
             make.left.equalTo(borderedButton.snp.right).offset(10)
@@ -131,7 +134,6 @@ class TestView: UIView {
 
     func createBorderedChevronRightButton() {
         borderedChevronRightButton = ButtonViewHelper.borderedChevronButton(title: "Bordered R", chevronPosition: .right)
-        // defaultButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         buttonSection.addSubview(borderedChevronRightButton)
         borderedChevronRightButton.snp.makeConstraints({ (make) in
             make.left.equalTo(borderedChevronLeftButton.snp.right).offset(10)
@@ -180,6 +182,43 @@ class TestView: UIView {
             make.height.equalTo(48)
             make.top.equalTo(searchBar.snp.bottom).offset(20)
         })
+    }
+
+    func createDrawerCellView() {
+        drawerCellView = DrawerCellView()
+        drawerCellView.title = "Overview"
+        buttonSection.addSubview(drawerCellView)
+        drawerCellView.snp.makeConstraints({ (make) in
+            make.left.right.equalToSuperview().inset(15)
+            make.height.equalTo(72)
+            make.top.equalTo(dropDownButton.snp.bottom).offset(20)
+        })
+    }
+
+    func createSelectedDrawerCellView() {
+        selectedDrawerCellView = DrawerCellView()
+        selectedDrawerCellView.title = "Overview"
+        buttonSection.addSubview(selectedDrawerCellView)
+        selectedDrawerCellView.snp.makeConstraints({ (make) in
+            make.left.right.equalToSuperview().inset(15)
+            make.height.equalTo(72)
+            make.top.equalTo(drawerCellView.snp.bottom).offset(5)
+        })
+        selectedDrawerCellView.isSelected = true
+    }
+
+    func createStepper() {
+        stepper = Stepper()
+        stepper.title = "Personnel Information"
+        stepper.details = "Next: Upload Documents"
+        buttonSection.addSubview(stepper)
+        stepper.snp.makeConstraints({ (make) in
+            make.left.right.equalToSuperview().inset(15)
+            make.height.equalTo(88)
+            make.top.equalTo(selectedDrawerCellView.snp.bottom).offset(20)
+        })
+        stepper.totalProgress = 3
+        stepper.currentProgress = 2
     }
 
     @objc func roundButtonTapped() {

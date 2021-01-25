@@ -65,9 +65,8 @@ class DropDownButton: UIView {
         label.textColor = .gullGray
         self.createViews()
         dropDown.anchorView = self
-        dropDown.width = self.frame.width
         dropDown.direction = .bottom
-        dropDown.bottomOffset = CGPoint(x: 0, y: (dropDown.anchorView?.plainView.bounds.height)!)
+        dropDown.bottomOffset = CGPoint(x: 0, y: 48)
         dropDown.dataSource = dataSource
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             self.title = item
@@ -90,12 +89,6 @@ class DropDownButton: UIView {
     @objc func toggleDropDown() {
         self.superview?.endEditing(true)
         dropDown.becomeFirstResponder()
-        dropDown.reloadInputViews()
-        dropDown.reloadAllComponents()
-        print("Touch")
-        print(dropDown.dataSource)
-        print(dropDown.anchorView)
-        print(dropDown.isHidden)
         dropDown.show()
     }
 

@@ -47,6 +47,8 @@ extension UIColor {
     static let subtleGrey = UIColor(hexString: "#334753")
     static let cinnabar = UIColor(hexString: "#DC0700")
     static let gullGray = UIColor(hexString: "#9AA5B3")
+    static let stepperInnerColor = UIColor(hexString: "#334753")
+    static let stepperOuterColor = UIColor(hexString: "#E7E9EB")
 
     convenience init(hexString: String, alpha: CGFloat = 1.0) {
         var hexFormatted: String = hexString.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).uppercased()

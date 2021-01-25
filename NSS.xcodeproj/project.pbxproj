@@ -35,6 +35,9 @@
 		8492032625B3ACE400B4016E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492032025B3ACE400B4016E /* UIView.swift */; };
 		8492032725B3ACE400B4016E /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492032125B3ACE400B4016E /* UIButton.swift */; };
 		8492034D25B3BD8F00B4016E /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492034C25B3BD8F00B4016E /* ViewHelper.swift */; };
+		84ADDA3125BEF416009FF565 /* ViewHelper+DrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA3025BEF416009FF565 /* ViewHelper+DrawerCell.swift */; };
+		84ADDA3625BF0916009FF565 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA3525BF0916009FF565 /* UIImageView.swift */; };
+		84ADDA3E25BF09DA009FF565 /* ViewHelper+Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA3D25BF09DA009FF565 /* ViewHelper+Stepper.swift */; };
 		F0F8A223CBAD9468C3CF9A59 /* Pods_NSS_NSSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5E45F84A720CFFE5600216 /* Pods_NSS_NSSUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +97,9 @@
 		8492032025B3ACE400B4016E /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		8492032125B3ACE400B4016E /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		8492034C25B3BD8F00B4016E /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		84ADDA3025BEF416009FF565 /* ViewHelper+DrawerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewHelper+DrawerCell.swift"; sourceTree = "<group>"; };
+		84ADDA3525BF0916009FF565 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		84ADDA3D25BF09DA009FF565 /* ViewHelper+Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewHelper+Stepper.swift"; sourceTree = "<group>"; };
 		C48477A5AED528BE76025D08 /* Pods_NSSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C963E22401B2710A0E8499A7 /* Pods-NSSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSTests.release.xcconfig"; path = "Target Support Files/Pods-NSSTests/Pods-NSSTests.release.xcconfig"; sourceTree = "<group>"; };
 		CC5E45F84A720CFFE5600216 /* Pods_NSS_NSSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSS_NSSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,6 +260,7 @@
 				8492031C25B3ACE400B4016E /* UITapGestureRecognizer.swift */,
 				8492032025B3ACE400B4016E /* UIView.swift */,
 				847C4E3125B45AC2005DFD33 /* UIImage.swift */,
+				84ADDA3525BF0916009FF565 /* UIImageView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -274,6 +281,8 @@
 				847C4E5C25B480A7005DFD33 /* ViewHelper+TextField.swift */,
 				84733F7025B50D0A00BCC85A /* ViewHelper+Searchbar.swift */,
 				84733F8125B510CA00BCC85A /* ViewHelper+DropDown.swift */,
+				84ADDA3025BEF416009FF565 /* ViewHelper+DrawerCell.swift */,
+				84ADDA3D25BF09DA009FF565 /* ViewHelper+Stepper.swift */,
 			);
 			path = BaseViews;
 			sourceTree = "<group>";
@@ -347,7 +356,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					849202C125B3A70800B4016E = {
 						CreatedOnToolsVersion = 12.2;
@@ -541,10 +550,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				847C4E2325B44A23005DFD33 /* TestView.swift in Sources */,
+				84ADDA3125BEF416009FF565 /* ViewHelper+DrawerCell.swift in Sources */,
 				8492032625B3ACE400B4016E /* UIView.swift in Sources */,
 				8492032425B3ACE400B4016E /* String.swift in Sources */,
 				8492034D25B3BD8F00B4016E /* ViewHelper.swift in Sources */,
 				849202CA25B3A70800B4016E /* TestController.swift in Sources */,
+				84ADDA3E25BF09DA009FF565 /* ViewHelper+Stepper.swift in Sources */,
 				847C4E5D25B480A7005DFD33 /* ViewHelper+TextField.swift in Sources */,
 				8492032225B3ACE400B4016E /* UITapGestureRecognizer.swift in Sources */,
 				8492032525B3ACE400B4016E /* UIFont.swift in Sources */,
@@ -554,6 +565,7 @@
 				84733F7125B50D0A00BCC85A /* ViewHelper+Searchbar.swift in Sources */,
 				847C4E3225B45AC2005DFD33 /* UIImage.swift in Sources */,
 				8492032325B3ACE400B4016E /* UIColor.swift in Sources */,
+				84ADDA3625BF0916009FF565 /* UIImageView.swift in Sources */,
 				8492032725B3ACE400B4016E /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -768,7 +780,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97XB8J435J;
 				INFOPLIST_FILE = NSSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -791,7 +803,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97XB8J435J;
 				INFOPLIST_FILE = NSSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
