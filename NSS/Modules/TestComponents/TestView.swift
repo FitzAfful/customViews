@@ -12,6 +12,8 @@ private typealias ButtonViewHelper = ViewHelper.Button
 private typealias TextFieldViewHelper = ViewHelper.TextField
 
 protocol TestViewDelegate: AnyObject {
+    func nextScreenTapped()
+    func pageThreeTapped()
 }
 
 class TestView: UIView {
@@ -72,13 +74,14 @@ class TestView: UIView {
         self.addSubview(buttonSection)
         buttonSection.snp.makeConstraints({ (make) in
             make.left.right.equalToSuperview()
-            make.topMargin.equalTo(80)
+            make.topMargin.equalTo(0)
             make.height.equalTo(750)
         })
     }
 
     func createDefaultButton() {
-        defaultButton = ButtonViewHelper.baseDefaultButton(title: "Default")
+        defaultButton = ButtonViewHelper.baseDefaultButton(title: "Page 2")
+        defaultButton.addTarget(self, action: #selector(nextScreenTapped), for: .touchUpInside)
         buttonSection.addSubview(defaultButton)
         defaultButton.snp.makeConstraints({ (make) in
             make.left.equalToSuperview().inset(10)
@@ -89,7 +92,8 @@ class TestView: UIView {
     }
 
     func createChevronLeftButton() {
-        chevronLeftButton = ButtonViewHelper.baseChevronButton(title: "Chevron L", chevronPosition: .left)
+        chevronLeftButton = ButtonViewHelper.baseChevronButton(title: "Page 3", chevronPosition: .left)
+        chevronLeftButton.addTarget(self, action: #selector(pageThreeTapped), for: .touchUpInside)
         buttonSection.addSubview(chevronLeftButton)
         chevronLeftButton.snp.makeConstraints({ (make) in
             make.left.equalTo(defaultButton.snp.right).offset(10)
@@ -224,6 +228,14 @@ class TestView: UIView {
     @objc func roundButtonTapped() {
         textFieldView.setErrorMessage(textFieldView.textField.text.isEmpty ? "This is a required field" : nil)
         textFieldView.textField.isUserInteractionEnabled = !textFieldView.textField.isUserInteractionEnabled
+    }
+
+    @objc func nextScreenTapped() {
+        delegate?.nextScreenTapped()
+    }
+
+    @objc func pageThreeTapped() {
+        delegate?.pageThreeTapped()
     }
 }
 

@@ -38,6 +38,30 @@
 		84ADDA3125BEF416009FF565 /* ViewHelper+DrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA3025BEF416009FF565 /* ViewHelper+DrawerCell.swift */; };
 		84ADDA3625BF0916009FF565 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA3525BF0916009FF565 /* UIImageView.swift */; };
 		84ADDA3E25BF09DA009FF565 /* ViewHelper+Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA3D25BF09DA009FF565 /* ViewHelper+Stepper.swift */; };
+		84ADDA4625BF2486009FF565 /* ViewHelper+InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA4525BF2486009FF565 /* ViewHelper+InfoView.swift */; };
+		84ADDA4B25BF249E009FF565 /* TestTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA4A25BF249E009FF565 /* TestTwoController.swift */; };
+		84ADDA5025BF24CE009FF565 /* TestTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADDA4F25BF24CE009FF565 /* TestTwoView.swift */; };
+		84BEA5E025C247B20049D681 /* ViewHelper+ActionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEA5DF25C247B20049D681 /* ViewHelper+ActionCard.swift */; };
+		84BEA5E125C247B20049D681 /* ViewHelper+ActionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEA5DF25C247B20049D681 /* ViewHelper+ActionCard.swift */; };
+		84BEA5E625C24E2C0049D681 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEA5E525C24E2C0049D681 /* UIViewController.swift */; };
+		84BEA5E725C24E2C0049D681 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEA5E525C24E2C0049D681 /* UIViewController.swift */; };
+		84BEA5EC25C252160049D681 /* ViewHelper+UploaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEA5EB25C252160049D681 /* ViewHelper+UploaderView.swift */; };
+		84BEA5ED25C252160049D681 /* ViewHelper+UploaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEA5EB25C252160049D681 /* ViewHelper+UploaderView.swift */; };
+		84EFB0D225BFCD7000545132 /* ViewHelper+AppointmentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFB0D125BFCD7000545132 /* ViewHelper+AppointmentCardView.swift */; };
+		84F4EA8D25C2D3E6002387B9 /* TestThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EA8C25C2D3E6002387B9 /* TestThreeController.swift */; };
+		84F4EA8E25C2D3E6002387B9 /* TestThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EA8C25C2D3E6002387B9 /* TestThreeController.swift */; };
+		84F4EA9325C2D425002387B9 /* TestThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EA9225C2D425002387B9 /* TestThreeView.swift */; };
+		84F4EA9425C2D425002387B9 /* TestThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EA9225C2D425002387B9 /* TestThreeView.swift */; };
+		84F4EA9925C2D850002387B9 /* ViewHelper+Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EA9825C2D850002387B9 /* ViewHelper+Tag.swift */; };
+		84F4EA9A25C2D850002387B9 /* ViewHelper+Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EA9825C2D850002387B9 /* ViewHelper+Tag.swift */; };
+		84F4EA9F25C2DC92002387B9 /* ViewHelper+RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EA9E25C2DC92002387B9 /* ViewHelper+RadioButton.swift */; };
+		84F4EAA025C2DC92002387B9 /* ViewHelper+RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EA9E25C2DC92002387B9 /* ViewHelper+RadioButton.swift */; };
+		84F4EAA525C2E62F002387B9 /* ViewHelper+PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EAA425C2E62F002387B9 /* ViewHelper+PaymentMethodView.swift */; };
+		84F4EAA625C2E62F002387B9 /* ViewHelper+PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EAA425C2E62F002387B9 /* ViewHelper+PaymentMethodView.swift */; };
+		84F4EAAB25C2F47A002387B9 /* ViewHelper+TabLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EAAA25C2F47A002387B9 /* ViewHelper+TabLabel.swift */; };
+		84F4EAAC25C2F47A002387B9 /* ViewHelper+TabLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EAAA25C2F47A002387B9 /* ViewHelper+TabLabel.swift */; };
+		84F4EAB125C2FDED002387B9 /* ViewHelper+StepperTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EAB025C2FDED002387B9 /* ViewHelper+StepperTwo.swift */; };
+		84F4EAB225C2FDED002387B9 /* ViewHelper+StepperTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4EAB025C2FDED002387B9 /* ViewHelper+StepperTwo.swift */; };
 		F0F8A223CBAD9468C3CF9A59 /* Pods_NSS_NSSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5E45F84A720CFFE5600216 /* Pods_NSS_NSSUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +124,20 @@
 		84ADDA3025BEF416009FF565 /* ViewHelper+DrawerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewHelper+DrawerCell.swift"; sourceTree = "<group>"; };
 		84ADDA3525BF0916009FF565 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		84ADDA3D25BF09DA009FF565 /* ViewHelper+Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewHelper+Stepper.swift"; sourceTree = "<group>"; };
+		84ADDA4525BF2486009FF565 /* ViewHelper+InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewHelper+InfoView.swift"; sourceTree = "<group>"; };
+		84ADDA4A25BF249E009FF565 /* TestTwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTwoController.swift; sourceTree = "<group>"; };
+		84ADDA4F25BF24CE009FF565 /* TestTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTwoView.swift; sourceTree = "<group>"; };
+		84BEA5DF25C247B20049D681 /* ViewHelper+ActionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewHelper+ActionCard.swift"; sourceTree = "<group>"; };
+		84BEA5E525C24E2C0049D681 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		84BEA5EB25C252160049D681 /* ViewHelper+UploaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewHelper+UploaderView.swift"; sourceTree = "<group>"; };
+		84EFB0D125BFCD7000545132 /* ViewHelper+AppointmentCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewHelper+AppointmentCardView.swift"; sourceTree = "<group>"; };
+		84F4EA8C25C2D3E6002387B9 /* TestThreeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThreeController.swift; sourceTree = "<group>"; };
+		84F4EA9225C2D425002387B9 /* TestThreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThreeView.swift; sourceTree = "<group>"; };
+		84F4EA9825C2D850002387B9 /* ViewHelper+Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewHelper+Tag.swift"; sourceTree = "<group>"; };
+		84F4EA9E25C2DC92002387B9 /* ViewHelper+RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewHelper+RadioButton.swift"; sourceTree = "<group>"; };
+		84F4EAA425C2E62F002387B9 /* ViewHelper+PaymentMethodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewHelper+PaymentMethodView.swift"; sourceTree = "<group>"; };
+		84F4EAAA25C2F47A002387B9 /* ViewHelper+TabLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewHelper+TabLabel.swift"; sourceTree = "<group>"; };
+		84F4EAB025C2FDED002387B9 /* ViewHelper+StepperTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewHelper+StepperTwo.swift"; sourceTree = "<group>"; };
 		C48477A5AED528BE76025D08 /* Pods_NSSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C963E22401B2710A0E8499A7 /* Pods-NSSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSTests.release.xcconfig"; path = "Target Support Files/Pods-NSSTests/Pods-NSSTests.release.xcconfig"; sourceTree = "<group>"; };
 		CC5E45F84A720CFFE5600216 /* Pods_NSS_NSSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSS_NSSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,7 +206,11 @@
 			isa = PBXGroup;
 			children = (
 				849202C925B3A70800B4016E /* TestController.swift */,
+				84ADDA4A25BF249E009FF565 /* TestTwoController.swift */,
+				84F4EA8C25C2D3E6002387B9 /* TestThreeController.swift */,
 				847C4E2225B44A23005DFD33 /* TestView.swift */,
+				84ADDA4F25BF24CE009FF565 /* TestTwoView.swift */,
+				84F4EA9225C2D425002387B9 /* TestThreeView.swift */,
 			);
 			path = TestComponents;
 			sourceTree = "<group>";
@@ -261,6 +303,7 @@
 				8492032025B3ACE400B4016E /* UIView.swift */,
 				847C4E3125B45AC2005DFD33 /* UIImage.swift */,
 				84ADDA3525BF0916009FF565 /* UIImageView.swift */,
+				84BEA5E525C24E2C0049D681 /* UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -283,6 +326,15 @@
 				84733F8125B510CA00BCC85A /* ViewHelper+DropDown.swift */,
 				84ADDA3025BEF416009FF565 /* ViewHelper+DrawerCell.swift */,
 				84ADDA3D25BF09DA009FF565 /* ViewHelper+Stepper.swift */,
+				84ADDA4525BF2486009FF565 /* ViewHelper+InfoView.swift */,
+				84EFB0D125BFCD7000545132 /* ViewHelper+AppointmentCardView.swift */,
+				84BEA5EB25C252160049D681 /* ViewHelper+UploaderView.swift */,
+				84F4EA9E25C2DC92002387B9 /* ViewHelper+RadioButton.swift */,
+				84BEA5DF25C247B20049D681 /* ViewHelper+ActionCard.swift */,
+				84F4EAA425C2E62F002387B9 /* ViewHelper+PaymentMethodView.swift */,
+				84F4EA9825C2D850002387B9 /* ViewHelper+Tag.swift */,
+				84F4EAAA25C2F47A002387B9 /* ViewHelper+TabLabel.swift */,
+				84F4EAB025C2FDED002387B9 /* ViewHelper+StepperTwo.swift */,
 			);
 			path = BaseViews;
 			sourceTree = "<group>";
@@ -550,21 +602,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				847C4E2325B44A23005DFD33 /* TestView.swift in Sources */,
+				84F4EA9325C2D425002387B9 /* TestThreeView.swift in Sources */,
 				84ADDA3125BEF416009FF565 /* ViewHelper+DrawerCell.swift in Sources */,
 				8492032625B3ACE400B4016E /* UIView.swift in Sources */,
 				8492032425B3ACE400B4016E /* String.swift in Sources */,
 				8492034D25B3BD8F00B4016E /* ViewHelper.swift in Sources */,
+				84EFB0D225BFCD7000545132 /* ViewHelper+AppointmentCardView.swift in Sources */,
 				849202CA25B3A70800B4016E /* TestController.swift in Sources */,
 				84ADDA3E25BF09DA009FF565 /* ViewHelper+Stepper.swift in Sources */,
 				847C4E5D25B480A7005DFD33 /* ViewHelper+TextField.swift in Sources */,
+				84BEA5E025C247B20049D681 /* ViewHelper+ActionCard.swift in Sources */,
+				84F4EA9F25C2DC92002387B9 /* ViewHelper+RadioButton.swift in Sources */,
 				8492032225B3ACE400B4016E /* UITapGestureRecognizer.swift in Sources */,
 				8492032525B3ACE400B4016E /* UIFont.swift in Sources */,
 				847C4E1925B44885005DFD33 /* ViewHelper+Button.swift in Sources */,
 				849202C625B3A70800B4016E /* AppDelegate.swift in Sources */,
+				84BEA5E625C24E2C0049D681 /* UIViewController.swift in Sources */,
+				84ADDA4B25BF249E009FF565 /* TestTwoController.swift in Sources */,
 				84733F8225B510CA00BCC85A /* ViewHelper+DropDown.swift in Sources */,
+				84ADDA5025BF24CE009FF565 /* TestTwoView.swift in Sources */,
+				84F4EA8D25C2D3E6002387B9 /* TestThreeController.swift in Sources */,
 				84733F7125B50D0A00BCC85A /* ViewHelper+Searchbar.swift in Sources */,
+				84F4EA9925C2D850002387B9 /* ViewHelper+Tag.swift in Sources */,
+				84F4EAA525C2E62F002387B9 /* ViewHelper+PaymentMethodView.swift in Sources */,
+				84BEA5EC25C252160049D681 /* ViewHelper+UploaderView.swift in Sources */,
+				84F4EAB125C2FDED002387B9 /* ViewHelper+StepperTwo.swift in Sources */,
+				84ADDA4625BF2486009FF565 /* ViewHelper+InfoView.swift in Sources */,
 				847C4E3225B45AC2005DFD33 /* UIImage.swift in Sources */,
 				8492032325B3ACE400B4016E /* UIColor.swift in Sources */,
+				84F4EAAB25C2F47A002387B9 /* ViewHelper+TabLabel.swift in Sources */,
 				84ADDA3625BF0916009FF565 /* UIImageView.swift in Sources */,
 				8492032725B3ACE400B4016E /* UIButton.swift in Sources */,
 			);
@@ -574,7 +640,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F4EAA025C2DC92002387B9 /* ViewHelper+RadioButton.swift in Sources */,
+				84F4EA9A25C2D850002387B9 /* ViewHelper+Tag.swift in Sources */,
+				84F4EA8E25C2D3E6002387B9 /* TestThreeController.swift in Sources */,
+				84F4EAB225C2FDED002387B9 /* ViewHelper+StepperTwo.swift in Sources */,
+				84F4EAAC25C2F47A002387B9 /* ViewHelper+TabLabel.swift in Sources */,
+				84F4EA9425C2D425002387B9 /* TestThreeView.swift in Sources */,
+				84BEA5E125C247B20049D681 /* ViewHelper+ActionCard.swift in Sources */,
+				84F4EAA625C2E62F002387B9 /* ViewHelper+PaymentMethodView.swift in Sources */,
+				84BEA5ED25C252160049D681 /* ViewHelper+UploaderView.swift in Sources */,
 				849202DD25B3A70A00B4016E /* NSSTests.swift in Sources */,
+				84BEA5E725C24E2C0049D681 /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,7 @@ class TestController: UIViewController {
         view.backgroundColor = .white
         createViews()
         super.viewDidLoad()
+        self.setNavigationItem(image: UIImage(named: "logo")!)
     }
 
     func createViews() {
@@ -31,5 +32,11 @@ class TestController: UIViewController {
 }
 
 extension TestController: TestViewDelegate {
+    func pageThreeTapped() {
+        self.navigationController?.pushViewController(TestThreeController(), animated: true)
+    }
 
+    func nextScreenTapped() {
+        self.navigationController?.pushViewController(TestTwoController(), animated: true)
+    }
 }

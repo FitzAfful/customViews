@@ -63,8 +63,8 @@ extension ViewHelper {
             button.layer.borderWidth = 1.0
             button.layer.borderColor = UIColor.borderGrey.cgColor
             button.setBackgroundColor(color: .white, forState: .normal)
-            button.setBackgroundColor(color: .lightGreen, forState: .highlighted)
-            button.setBackgroundColor(color: .lightGreen, forState: .selected)
+            button.setBackgroundColor(color: .gin, forState: .highlighted)
+            button.setBackgroundColor(color: .gin, forState: .selected)
             button.setBackgroundColor(color: .disabledWhite, forState: .disabled)
             button.setTitleColor(.defaultGreen, for: .normal)
             button.setTitleColor(.disabledGreen, for: .disabled)

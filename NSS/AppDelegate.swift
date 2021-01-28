@@ -46,7 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared().shouldResignOnTouchOutside = true
         DropDown.startListeningToKeyboard()
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window!.rootViewController = TestController()
+        self.window!.rootViewController = UINavigationController(rootViewController: TestController())
         self.window!.makeKeyAndVisible()
         return true
     }

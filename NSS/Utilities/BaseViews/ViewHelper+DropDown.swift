@@ -10,18 +10,6 @@ import UIKit
 import SnapKit
 import DropDown
 
-extension ViewHelper {
-
-    struct DropDownView {
-        func createBaseDropDownButton(placeholder: String, dataSource: [String]) -> DropDownButton {
-            let dropDownButton = DropDownButton()
-
-            return dropDownButton
-        }
-    }
-
-}
-
 protocol DropDownButtonDelegate: AnyObject {
     func dropDownItemSelected(index: Int, item: String)
 }
