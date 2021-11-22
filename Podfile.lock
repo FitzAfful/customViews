@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (5.4.0)
+  - DropDown (2.3.13)
+  - IQKeyboardManager (6.5.6)
+  - Locksmith (4.0.0)
+  - SnapKit (5.0.1)
+  - SwiftLint (0.42.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - DropDown
+  - IQKeyboardManager
+  - Locksmith
+  - SnapKit (~> 5.0.0)
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DropDown
+  trunk:
+    - Alamofire
+    - IQKeyboardManager
+    - Locksmith
+    - SnapKit
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+
+PODFILE CHECKSUM: f8863ee294c592ed2f40a21bd3e6f54ea5612f3d
+
+COCOAPODS: 1.10.1
