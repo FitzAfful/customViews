@@ -83,6 +83,13 @@ class DropDownButton: UIView {
         dropDown.direction = .bottom
         dropDown.bottomOffset = CGPoint(x: 0, y: 48)
         dropDown.dataSource = dataSource
+        dropDown.cellNib = UINib(nibName: "MyCell", bundle: nil)
+        dropDown.customCellConfiguration = { (index: Index, item: String, cell: DropDownCell) -> Void in
+           /*guard let cell = cell as? MyCell else { return }
+
+           // Setup your custom UI components
+           cell.logoImageView.image = UIImage(named: "logo_\(index)")*/
+        }
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             self.title = item
             delegate.dropDownItemSelected(index: index, item: item)

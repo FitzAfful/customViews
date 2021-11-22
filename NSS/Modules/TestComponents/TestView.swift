@@ -92,8 +92,8 @@ class TestView: UIView {
         createRoundArrowButton()
         createBaseSearchBar()
         createDropDownButton()
-        createDrawerCellView()
-        createSelectedDrawerCellView()
+        //createDrawerCellView()
+        //createSelectedDrawerCellView()
         createStepper()
     }
 
@@ -207,13 +207,13 @@ class TestView: UIView {
     }
 
     func createDropDownButton() {
-        dropDownButton = DropDownButton(placeholder: "Choose Option", dataSource: ["General Enrolment 2020/2021", "Nursing Enrolment 2020/2021", "Sub Enrolment 2018/2019"], delegate: self)
+        /*dropDownButton = DropDownButton(placeholder: "Choose Option", dataSource: ["General Enrolment 2020/2021", "Nursing Enrolment 2020/2021", "Sub Enrolment 2018/2019"], delegate: self)
         buttonSection.addSubview(dropDownButton)
         dropDownButton.snp.makeConstraints({ (make) in
             make.left.right.equalToSuperview().inset(15)
             make.height.equalTo(48)
             make.top.equalTo(searchBar.snp.bottom).offset(20)
-        })
+        }) */
     }
 
     func createDrawerCellView() {
@@ -247,7 +247,7 @@ class TestView: UIView {
         stepper.snp.makeConstraints({ (make) in
             make.left.right.equalToSuperview().inset(15)
             make.height.equalTo(88)
-            make.top.equalTo(selectedDrawerCellView.snp.bottom).offset(20)
+            make.top.equalTo(searchBar.snp.bottom).offset(20)
         })
         stepper.totalProgress = 3
         stepper.currentProgress = 2
